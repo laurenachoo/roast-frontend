@@ -21,12 +21,17 @@ section.row.section.text-light {
 
 h3.phone {
   position: absolute;
-  margin-top: 1em;
+  margin-top: 12.5em;
   margin-left: 0.5em;
+  margin-right: 2.5em;
+  text-align: center;
 }
 
 p.paraphone {
   position: absolute;
-  margin-top: 3em;
-  margin-left: 0.5em;
+  margin-top: 25em;
+  margin-left: 1.2em;
+  margin-right: 4.2em;
+  text-align: center;
+  font-size: smaller;
 }
