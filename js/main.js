@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
-	// $('.theForm').on('submit', function(){
+	$('.theForm').on('submit', function(){
+		event.preventDefault();
 		var email = $('.theEmail').val();
 	
 		console.log('Email: ', email);
@@ -18,6 +19,5 @@ $(document).ready(function(){
 		  }).fail(function(jqXHR, status, err) {
 		    console.error('fuck')
 		  });
-	// })
+	})
  });
-
