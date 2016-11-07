@@ -23,6 +23,20 @@ input.plain.buffer {
   background-color: #4FC1E9;
 }
 
+.profile-pic {
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 12.5em;
+  margin-left: 0.5em;
+  margin-right: 2.5em;
+  text-align: center;
+  z-index: 0;
+}
+
+.owl-item img {
+  z-index: 1;
+}
+
 h3.phone {
   position: absolute;
   margin-top: 12.5em;
